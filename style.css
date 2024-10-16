@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Overlock:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Overlock", sans-serif;
+}
+
+body {
+    background-color:darkslateblue;
+    background-size: cover;
+    color: darkblue;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 2rem;
+    color: darkblue;
+    text-decoration: underline black;
+}
+
+.innhold {
+    text-align: center;
+    padding-top: 2rem;
+}
+
+#input {
+    width: 150px;
+    background: transparent;
+    border: 5px solid black;
+    border-radius: 5px;
+    padding: 1rem;
+    color: darkblue;
+}
+
+#input::placeholder {
+    color: darkblue;
+}
+
+button {
+    width: 150px;
+    background: transparent;
+    border: 5px solid black;
+    border-radius: 5px;
+    padding: 1rem;
+    color: darkblue;
+    margin-top: 0.5rem;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+
+.info {
+    text-align: center;
+    padding-top: 2rem;
+    margin-top: 2rem;
+    border: 5px solid black;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.5); 
+    width: 250px;
+    padding: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.info p, .info h2 {
+    color: white;
+    margin: 0.5rem 0;
+}
